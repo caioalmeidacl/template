@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src:url(/assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+    font-weight: 500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}   
+
+/* Result */
+
+header {
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+
+#result {
+    display: flex;
+    border: 1px solid ;
+    flex-direction: column;
+    background-color: hsl(252,100%,67%);
+    border-radius: 20px;
+    width: 20vw;
+    height: 60vh;
+    align-items: center;
+}
+
+#result p:nth-child(1) {
+    color: hsl(224,30%,27%);
+    /* border: 1px solid; */
+    text-align: center;
+    padding: 10px;
+    font-size: 1.4em;
+    margin-top: 15px;    
+}
+
+/* Procurar saber fazer um circle */
+.result-point{ 
+    border: 1px solid;
+    align-self: center;
+    text-align: center;
+    width: 50%;
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 100px;
+    background-color: hsla(258,72%, 46%, 1);
+}
+
+.result-point h1 {
+    color: white;
+    font-size: 3.8em;
+}
+
+.result-point h2 {
+    font-size: 1em;
+    color: hsl(224,30%,60%);
+}
+
+.message {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.message h1 {
+    font-size: 1.8em;
+    color: hsl(221, 100%, 96%);
+}
+
+.message p {
+    color: hsl(224,30%,27%);
+}
+
+.content {
+    position: absolute;
+    left: 50.3%;
+    top: 15%;
+}
+
+main {
+    display: flex;
+    border: 1px solid ;
+    flex-direction: column;
+    /* background-color: hsl(252,100%,67%); */
+    border-radius: 20px;
+    width: 20vw;
+    height: 60vh;
+}
