@@ -26,15 +26,14 @@ header {
     display: flex;
     border: 1px solid ;
     flex-direction: column;
-    background-color: hsl(252,100%,67%);
+    background-color: hsl(241,81%,54%);
     border-radius: 30px;
     width: 20vw;
     height: 60vh;   
 }
 
 #result p:nth-child(1) {
-    color: hsl(224,30%,27%);
-
+    color: hsl(241,100%,80%);
     text-align: center;
     padding: 10px;
     font-size: 1.2em;
@@ -45,22 +44,28 @@ header {
 .result-point{ 
     border: 1px solid;
     align-self: center;
-    text-align: center;
+    align-content: center;
     width: 60%;
     height: 40%;
     margin-top: 10px;
-    padding: 45px;
     border-radius: 100%;
-    background-color: hsla(258,72%, 46%, 1);
+    background-color: hsla(241, 81%, 54%, 1);
+    position: static;
 }
 
 .result-point h1 {
     color: white;
+    position: absolute;
+    top: 33%;
+    left: 39%;
     font-size: 2.8em;
     margin-top: -20px;
 }
 
 .result-point h2 {
+    position: absolute;
+    top: 46%;
+    left: 42%;
     font-size: 0.8em;
     color: hsl(224,30%,60%);
 }
@@ -77,11 +82,11 @@ header {
 
 .message p {
     font-size: 0.85rem;
-
-    width: 86%;    
+    width: 86%;
+    margin-top: 10px;    
     position: relative;
     left: 8%;
-    color: hsl(224,30%,27%);
+    color: hsl(241,100%,80%);
 }
 
 .content {
