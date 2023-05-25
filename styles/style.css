@@ -28,8 +28,7 @@ header {
     background-color: hsl(252,100%,67%);
     border-radius: 20px;
     width: 20vw;
-    height: 60vh;
-    align-items: center;
+    height: 60vh;   
 }
 
 #result p:nth-child(1) {
@@ -37,7 +36,7 @@ header {
     /* border: 1px solid; */
     text-align: center;
     padding: 10px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-top: 15px;    
 }
 
@@ -46,25 +45,27 @@ header {
     border: 1px solid;
     align-self: center;
     text-align: center;
-    width: 50%;
-    margin-top: 20px;
-    padding: 40px;
-    border-radius: 100px;
+    width: 60%;
+    height: 40%;
+    margin-top: 10px;
+    padding: 45px;
+    border-radius: 100%;
     background-color: hsla(258,72%, 46%, 1);
 }
 
 .result-point h1 {
     color: white;
-    font-size: 3.8em;
+    font-size: 2.8em;
+    margin-top: -20px;
 }
 
 .result-point h2 {
-    font-size: 1em;
+    font-size: 0.8em;
     color: hsl(224,30%,60%);
 }
 
 .message {
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
 }
 
@@ -74,6 +75,11 @@ header {
 }
 
 .message p {
+    font-size: 0.85rem;
+    /* border: 1px solid; */
+    width: 86%;    
+    position: relative;
+    left: 8%;
     color: hsl(224,30%,27%);
 }
 
@@ -89,6 +95,76 @@ main {
     flex-direction: column;
     /* background-color: hsl(252,100%,67%); */
     border-radius: 20px;
-    width: 20vw;
+    width: 22vw;
     height: 60vh;
+}
+
+section {
+    /* border: 1px solid; */
+    width: 98%;
+    height: 85%;
+    margin-left: 2px;
+}
+
+main h1 {
+    margin-left: 15px;
+    /* border: 1px solid; */
+    padding: 10px;
+}
+
+main div {
+    background-color: hsl(221, 100%, 96%);
+}
+
+.test,.memory, .verbal, .view {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color:gray; */
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.test h1:nth-of-type(1) {
+    margin-left: -100px;
+    font-size: 0.9em;
+    color: hsl(0,100%,67%);
+}
+
+.memory h1:nth-of-type(1) {
+    margin-left: -100px;
+    font-size: 0.9em;
+    color: hsl(39,100%,56%);
+}
+
+.verbal h1:nth-of-type(1) {
+    margin-left: -100px;
+    font-size: 0.9em;
+    color: hsl(166,100%,37%);
+}
+.view h1:nth-of-type(1) {
+    margin-left: -100px;
+    font-size: 0.9em;
+    color: hsl(234,85%,45%);
+}
+
+span {
+    color: hsl(224,30%,60%);
+}
+
+h3 {
+    margin-top: 7px;
+    margin-right: 10px;
+    /* border: 1px solid; */
+}
+
+button {
+    margin-top: -50px;
+    align-self: center;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: hsla(256, 72%, 46%, 1);
+    width: 80%;
 }
