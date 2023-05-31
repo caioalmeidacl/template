@@ -24,16 +24,17 @@ header {
 
 #result {
     display: flex;
-    border: 1px solid ;
+    /* border: 1px solid ; */
     flex-direction: column;
-    background-color: hsl(241,81%,54%);
+    background-color: hsla(241,81%,54%, 0.85);
     border-radius: 30px;
     width: 20vw;
     height: 60vh;   
 }
 
 #result p:nth-child(1) {
-    color: hsl(241,100%,80%);
+    color: hsla(221, 100%, 96%, 0.5);
+    /* color: hsl(241,100%,80%); */
     text-align: center;
     padding: 10px;
     font-size: 1.2em;
@@ -42,14 +43,14 @@ header {
 
 /* Procurar saber fazer um circle */
 .result-point{ 
-    border: 1px solid;
+    /* border: 1px solid; */
     align-self: center;
     align-content: center;
     width: 60%;
     height: 40%;
     margin-top: 10px;
     border-radius: 100%;
-    background-color: hsla(241, 81%, 54%, 1);
+    background-color: hsla(241, 72%, 46%, 1);
     position: static;
 }
 
@@ -86,7 +87,7 @@ header {
     margin-top: 10px;    
     position: relative;
     left: 8%;
-    color: hsl(241,100%,80%);
+    color: hsla(221, 100%, 96%, 0.7);
 }
 
 .content {
@@ -97,7 +98,7 @@ header {
 
 main {
     display: flex;
-    border: 1px solid gray ;
+    border: 1px solid rgba(232, 226, 226, 0.5) ;
     flex-direction: column;
     border-radius: 30px;
     width: 22vw;
@@ -112,8 +113,10 @@ section {
 }
 
 main h1 {
-    margin-left: 15px;
-    font-size: 1.3em;
+    position: relative;
+    top: 3%;
+    left: 2%;
+    font-size: 1.2em;
     padding: 12px;
     height: 10%;
 }
@@ -143,24 +146,24 @@ main h1 {
     border-radius: 8px;
 }
 
-.test h1:nth-of-type(1) {
-    margin-left: -90px;
+.test h1 {
+    margin-left: -85px;
     font-size: 0.9em;
     color: hsl(0,100%,67%);
 }
 
-.memory h1:nth-of-type(1) {
+.memory h1 {
     margin-left: -80px;
     font-size: 0.9em;
     color: hsl(39,100%,56%);
 }
 
-.verbal h1:nth-of-type(1) {
+.verbal h1 {
     margin-left: -90px;
     font-size: 0.9em;
     color: hsl(166,100%,37%);
 }
-.view h1:nth-of-type(1) {
+.view h1 {
     margin-left: -90px;
     font-size: 0.9em;
     color: hsl(234,85%,45%);
